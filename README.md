@@ -10,5 +10,5 @@ To edit files with atom over ssh follow:
   
 And do:
 
-  'ssh -R 52698:localhost:52698 ubuntu@10.42.0.211' 
+  `ssh -R 52698:localhost:52698 ubuntu@10.42.0.211`
   
