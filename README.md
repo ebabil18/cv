@@ -21,7 +21,7 @@ To install the package in your ROS environment, clone the package `name_of_packa
 
 ## Usage
 
-Run `rosrun rosserial_python serial_node.py /dev/ttyACM0`, where `/dev/ttyACM0` is the mount directory of your Arduino. You need to get this information from the Arduino IDE, in Tools > Port. This will start the Arduino communication as a ROS Node.
+With active roscore, run `rosrun rosserial_python serial_node.py /dev/ttyACM0`, where `/dev/ttyACM0` is the mount directory of your Arduino. You need to get this information from the Arduino IDE, in Tools > Port. This will start the Arduino communication as a ROS Node.
 
 With `rostopic pub servo std_msgs/UInt16  <angle>` you can now move the servo replacing `<angle>` with the angle in degree as integer.
 
